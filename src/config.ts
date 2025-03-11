@@ -49,7 +49,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     title: "Resume",
-    url: "/resume.pdf",
+    url: "/sp.pdf",
     icon: "mdi:file-download",
     external: true,
   },
