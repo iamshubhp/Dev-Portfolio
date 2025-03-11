@@ -1,0 +1,11 @@
+services:
+  minimal-portforio-template:
+    container_name: minimal-portforio
+    image: minimal-portforio
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      target: runtime
+    ports:
+      - "4321:4321"
+    restart: always
