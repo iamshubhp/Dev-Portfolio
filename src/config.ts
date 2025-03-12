@@ -109,9 +109,14 @@ I specialize in developing machine learning models, creating AI pipelines, and d
     description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
     items: [
       {
-        title: "Machine Learning Research",
+        title: "Student Assistant - ML Research",
         company: {
-          name: "Freelance",
+          name: `Assisted in research on image classification techniques using pre-trained models like ResNet and EfficientNet for
+                  applications in document processing.
+                  Implemented data preprocessing pipelines and augmentation strategies that improved model accuracy by 15% on
+                  limited datasets.
+                  Built and evaluated machine learning models using scikit-learn and PyTorch, documenting experimental results
+                  and creating visualizations for performance analysis.`,
           image: "/logo-transparent.svg",
           url: "https://github.com/iamshubhp",
         },
@@ -121,7 +126,7 @@ I specialize in developing machine learning models, creating AI pipelines, and d
     ],
   },
   connect: {
-    description: `I would love to connect for any available opportunity for me. you can connect through the given links below.`, // Markdown is supported
+    description: `I would love to connect for any available opportunities.`, // Markdown is supported
     links: socialLinks,
   },
 };
