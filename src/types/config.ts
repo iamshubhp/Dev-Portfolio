@@ -77,3 +77,8 @@ export type ProjectPageContent = {
   subtitle: string;
   projects: Project[];
 };
+
+export type BlogPageContent = {
+  seo: SEOInfo;
+  subtitle: string;
+};

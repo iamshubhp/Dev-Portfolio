@@ -4,6 +4,7 @@ import type {
   Identity,
   AboutPageContent,
   ProjectPageContent,
+  BlogPageContent,
   HomePageContent,
 } from "./types/config";
 
@@ -25,6 +26,10 @@ export const navBarLinks: NavBarLink[] = [
   {
     title: "Projects",
     url: "/projects",
+  },
+  {
+    title: "Blog",
+    url: "/blog",
   },
 ];
 
@@ -162,4 +167,13 @@ export const projectsPageContent: ProjectPageContent = {
       url: "https://github.com/iamshubhp/DeepSeekR1-code-helper",
     },
   ],
+};
+
+export const blogPageContent: BlogPageContent = {
+  seo: {
+    title: "Blog | Shubh Patel",
+    description: "Thoughts, stories and ideas.",
+    image: identity.logo,
+  },
+  subtitle: "Thoughts, stories and ideas.",
 };
